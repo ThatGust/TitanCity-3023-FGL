@@ -1,0 +1,36 @@
+{
+  "Mineral": {
+    "ItemCategory": "Resource",
+    "StackSize": 99,
+    "Description": "thing"
+  },
+  "Sandstone": {
+    "ItemCategory": "Resource",
+    "AddHealth": 5,
+    "AddEnergy": 32,
+    "StackSize": 99,
+    "Description": "Common item"
+  },
+  "Laser Drill": {
+    "ItemCategory": "Tool",
+    "ItemAttack": 3,
+    "ItemSpeed": 0.75, 
+    "StackSize": 1,
+    "Description": "thing"
+  },
+  "Suit Upper": {
+    "ItemCategory": "Clothing",
+    "StackSize": 1,
+    "Description": "Upper part of the space suit"
+  },
+  "Suit Lower": {
+    "ItemCategory": "Clothing",
+    "StackSize": 1,
+    "Description": "Lower part of the space suit"
+  },
+  "Space Boots": {
+    "ItemCategory": "Clothing",
+    "StackSize": 1,
+    "Description": "Some dirty boots!!"
+  }
+}
