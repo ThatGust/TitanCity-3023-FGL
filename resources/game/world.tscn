@@ -1,0 +1,10 @@
+[gd_scene format=2]
+
+[node name="world" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+margin_left = 109.0
+margin_top = 104.0
+margin_right = 260.0
+margin_bottom = 150.0
+text = "Dummy amogus fungus"
