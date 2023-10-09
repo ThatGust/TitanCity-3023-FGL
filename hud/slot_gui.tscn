@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://hud/inv-tile.png" type="Texture" id=1]
+
+[node name="Panel" type="Panel"]
+margin_right = 128.0
+margin_bottom = 128.0
+rect_scale = Vector2( 0.3, 0.3 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( -12, -12 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( 12, 12 )

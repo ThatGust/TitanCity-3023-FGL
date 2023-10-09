@@ -1,0 +1,134 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://hud/grid.png" type="Texture" id=1]
+[ext_resource path="res://hud/slot_gui.tscn" type="PackedScene" id=2]
+[ext_resource path="res://hud/inventory_gui.gd" type="Script" id=3]
+
+[node name="inventory" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 322.0
+margin_top = 191.0
+margin_right = -305.0
+margin_bottom = -163.0
+script = ExtResource( 3 )
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+margin_right = 396.0
+margin_bottom = 247.0
+texture = ExtResource( 1 )
+region_rect = Rect2( 43.3643, 132.266, 437.919, 285.382 )
+patch_margin_left = 100
+patch_margin_top = 25
+patch_margin_right = 25
+patch_margin_bottom = 52
+
+[node name="GridContainer" type="GridContainer" parent="NinePatchRect"]
+anchor_left = 0.022
+anchor_right = 0.031
+anchor_bottom = 0.143
+margin_left = 2.288
+margin_top = 16.0
+margin_right = 736.724
+margin_bottom = 412.679
+rect_scale = Vector2( 0.5, 0.5 )
+custom_constants/vseparation = 150
+custom_constants/hseparation = 152
+columns = 5
+
+[node name="Panel" parent="NinePatchRect/GridContainer" instance=ExtResource( 2 )]
+margin_right = 0.0
+margin_bottom = 0.0
+rect_scale = Vector2( 1, 1 )
+
+[node name="Panel2" parent="NinePatchRect/GridContainer" instance=ExtResource( 2 )]
+margin_left = 152.0
+margin_right = 152.0
+margin_bottom = 0.0
+rect_scale = Vector2( 1, 1 )
+
+[node name="Panel3" parent="NinePatchRect/GridContainer" instance=ExtResource( 2 )]
+margin_left = 304.0
+margin_right = 304.0
+margin_bottom = 0.0
+rect_scale = Vector2( 1, 1 )
+
+[node name="Panel4" parent="NinePatchRect/GridContainer" instance=ExtResource( 2 )]
+margin_left = 456.0
+margin_right = 456.0
+margin_bottom = 0.0
+rect_scale = Vector2( 1, 1 )
+
+[node name="Panel5" parent="NinePatchRect/GridContainer" instance=ExtResource( 2 )]
+margin_left = 608.0
+margin_right = 608.0
+margin_bottom = 0.0
+rect_scale = Vector2( 1, 1 )
+
+[node name="Panel6" parent="NinePatchRect/GridContainer" instance=ExtResource( 2 )]
+margin_top = 150.0
+margin_right = 0.0
+margin_bottom = 150.0
+rect_scale = Vector2( 1, 1 )
+
+[node name="Panel7" parent="NinePatchRect/GridContainer" instance=ExtResource( 2 )]
+margin_left = 152.0
+margin_top = 150.0
+margin_right = 152.0
+margin_bottom = 150.0
+rect_scale = Vector2( 1, 1 )
+
+[node name="Panel8" parent="NinePatchRect/GridContainer" instance=ExtResource( 2 )]
+margin_left = 304.0
+margin_top = 150.0
+margin_right = 304.0
+margin_bottom = 150.0
+rect_scale = Vector2( 1, 1 )
+
+[node name="Panel9" parent="NinePatchRect/GridContainer" instance=ExtResource( 2 )]
+margin_left = 456.0
+margin_top = 150.0
+margin_right = 456.0
+margin_bottom = 150.0
+rect_scale = Vector2( 1, 1 )
+
+[node name="Panel10" parent="NinePatchRect/GridContainer" instance=ExtResource( 2 )]
+margin_left = 608.0
+margin_top = 150.0
+margin_right = 608.0
+margin_bottom = 150.0
+rect_scale = Vector2( 1, 1 )
+
+[node name="Panel11" parent="NinePatchRect/GridContainer" instance=ExtResource( 2 )]
+margin_top = 300.0
+margin_right = 0.0
+margin_bottom = 300.0
+rect_scale = Vector2( 1, 1 )
+
+[node name="Panel12" parent="NinePatchRect/GridContainer" instance=ExtResource( 2 )]
+margin_left = 152.0
+margin_top = 300.0
+margin_right = 152.0
+margin_bottom = 300.0
+rect_scale = Vector2( 1, 1 )
+
+[node name="Panel13" parent="NinePatchRect/GridContainer" instance=ExtResource( 2 )]
+margin_left = 304.0
+margin_top = 300.0
+margin_right = 304.0
+margin_bottom = 300.0
+rect_scale = Vector2( 1, 1 )
+
+[node name="Panel14" parent="NinePatchRect/GridContainer" instance=ExtResource( 2 )]
+margin_left = 456.0
+margin_top = 300.0
+margin_right = 456.0
+margin_bottom = 300.0
+rect_scale = Vector2( 1, 1 )
+
+[node name="Panel15" parent="NinePatchRect/GridContainer" instance=ExtResource( 2 )]
+margin_left = 608.0
+margin_top = 300.0
+margin_right = 608.0
+margin_bottom = 300.0
+rect_scale = Vector2( 1, 1 )
